@@ -56,7 +56,7 @@
 		870637552C30415900E4B008 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				8745DD752C3042E3006A61BC /* extension */,
+				8745DD752C3042E3006A61BC /* Extension */,
 				877E4D8C2C2DA5C500787FBF /* MainViewController.swift */,
 				877E4D9C2C2DA71600787FBF /* UserActionCell.swift */,
 			);
@@ -77,17 +77,18 @@
 			children = (
 				877E4D882C2DA5C500787FBF /* AppDelegate.swift */,
 				877E4D8A2C2DA5C500787FBF /* SceneDelegate.swift */,
+				877E4D962C2DA5C700787FBF /* Info.plist */,
 			);
 			path = App;
 			sourceTree = "<group>";
 		};
-		8745DD752C3042E3006A61BC /* extension */ = {
+		8745DD752C3042E3006A61BC /* Extension */ = {
 			isa = PBXGroup;
 			children = (
 				8745DD762C304317006A61BC /* MainViewController+Layout.swift */,
 				8745DD782C304394006A61BC /* MainViewController+Networking.swift */,
 			);
-			path = extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		877E4D7C2C2DA5C500787FBF = {
@@ -109,12 +110,11 @@
 		877E4D872C2DA5C500787FBF /* ApiTask */ = {
 			isa = PBXGroup;
 			children = (
-				870637572C3041D400E4B008 /* App */,
-				870637562C3041B700E4B008 /* Storyboards */,
 				870637552C30415900E4B008 /* ViewControllers */,
 				870637542C3040C400E4B008 /* Models */,
+				870637562C3041B700E4B008 /* Storyboards */,
+				870637572C3041D400E4B008 /* App */,
 				877E4D912C2DA5C700787FBF /* Assets.xcassets */,
-				877E4D962C2DA5C700787FBF /* Info.plist */,
 			);
 			path = ApiTask;
 			sourceTree = "<group>";
@@ -349,7 +349,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ApiTask/Info.plist;
+				INFOPLIST_FILE = ApiTask/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -376,7 +376,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ApiTask/Info.plist;
+				INFOPLIST_FILE = ApiTask/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
